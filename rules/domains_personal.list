@@ -1,0 +1,15 @@
+# For speedup page loading
+DOMAIN-SUFFIX,doubleclick.net,PROXY
+DOMAIN-SUFFIX,googleadservices.com,PROXY
+
+# AI & Tools
+DOMAIN-SUFFIX,deepl.com,PROXY
+DOMAIN-SUFFIX,lightning.ai,PROXY
+DOMAIN-SUFFIX,opencode.ai,PROXY
+DOMAIN-SUFFIX,devpod.sh,PROXY
+DOMAIN-SUFFIX,arc.net,PROXY
+DOMAIN-KEYWORD,gemini,PROXY
+
+# Services
+DOMAIN-SUFFIX,pocketbook-int.com,PROXY
+DOMAIN-SUFFIX,onlinesim.io,PROXY
