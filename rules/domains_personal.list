@@ -9,6 +9,7 @@ DOMAIN-SUFFIX,opencode.ai
 DOMAIN-SUFFIX,devpod.sh
 DOMAIN-SUFFIX,arc.net
 DOMAIN-KEYWORD,gemini
+DOMAIN-KEYWORD,aquavoice
 
 # Services
 DOMAIN-SUFFIX,pocketbook-int.com
