@@ -1,0 +1,6 @@
+# Override ip testing services
+DOMAIN-SUFFIX,ifconfig.me
+DOMAIN-SUFFIX,ipinfo.io
+DOMAIN-SUFFIX,browserleaks.com
+DOMAIN-SUFFIX,speedtest.net
+DOMAIN-SUFFIX,maxmind.com
