@@ -1,3 +1,10 @@
+# Override ip testing services
+DOMAIN-SUFFIX,ifconfig.me,DIRECT
+DOMAIN-SUFFIX,ipinfo.io,DIRECT
+DOMAIN-SUFFIX,browserleaks.com,DIRECT
+DOMAIN-SUFFIX,speedtest.net,DIRECT
+DOMAIN-SUFFIX,maxmind.com,DIRECT
+
 # For speedup page loading
 DOMAIN-SUFFIX,doubleclick.net
 DOMAIN-SUFFIX,googleadservices.com
