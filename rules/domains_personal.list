@@ -2,6 +2,11 @@
 DOMAIN-SUFFIX,doubleclick.net
 DOMAIN-SUFFIX,googleadservices.com
 
+# Google
+DOMAIN-SUFFIX,google.com
+DOMAIN-SUFFIX,gstatic.com
+DOMAIN-SUFFIX,googleusercontent.com
+
 # AI & Tools
 DOMAIN-SUFFIX,deepl.com
 DOMAIN-SUFFIX,lightning.ai
