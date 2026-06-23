@@ -20,7 +20,6 @@ DOMAIN-KEYWORD,gemini
 DOMAIN-KEYWORD,aquavoice
 
 # Services
-DOMAIN-SUFFIX,whoop.com
 DOMAIN-SUFFIX,pocketbook-int.com
 DOMAIN-SUFFIX,onlinesim.io
 DOMAIN-SUFFIX,linkedin.com
@@ -29,3 +28,4 @@ DOMAIN-SUFFIX,lnkd.in
 DOMAIN-SUFFIX,teamretro.com
 DOMAIN-SUFFIX,tftacademy.com
 DOMAIN-SUFFIX,context7.com
+DOMAIN-KEYWORD,whoop
