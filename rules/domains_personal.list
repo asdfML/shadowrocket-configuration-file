@@ -1,11 +1,14 @@
 # For speedup page loading
 DOMAIN-SUFFIX,doubleclick.net
 DOMAIN-SUFFIX,googleadservices.com
+DOMAIN-SUFFIX,amazonaws.com
+DOMAIN-SUFFIX,cloudfront.net
 
 # Google
 DOMAIN-SUFFIX,google.com
 DOMAIN-SUFFIX,gstatic.com
 DOMAIN-SUFFIX,googleusercontent.com
+DOMAIN-SUFFIX,googleapis.com
 
 # AI & Tools
 DOMAIN-SUFFIX,deepl.com
@@ -17,6 +20,7 @@ DOMAIN-KEYWORD,gemini
 DOMAIN-KEYWORD,aquavoice
 
 # Services
+DOMAIN-SUFFIX,whoop.com
 DOMAIN-SUFFIX,pocketbook-int.com
 DOMAIN-SUFFIX,onlinesim.io
 DOMAIN-SUFFIX,linkedin.com
