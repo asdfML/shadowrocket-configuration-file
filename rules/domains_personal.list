@@ -12,6 +12,7 @@ DOMAIN-SUFFIX,googleapis.com
 
 # AI & Tools
 DOMAIN-SUFFIX,oaiusercontent.com
+DOMAIN-SUFFIX,claude.com
 DOMAIN-SUFFIX,deepl.com
 DOMAIN-SUFFIX,lightning.ai
 DOMAIN-SUFFIX,opencode.ai
