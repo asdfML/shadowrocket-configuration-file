@@ -1,0 +1,4 @@
+# Russian domain zones. .рф is written in ASCII (Punycode).
+DOMAIN-SUFFIX,ru
+DOMAIN-SUFFIX,su
+DOMAIN-SUFFIX,xn--p1ai
