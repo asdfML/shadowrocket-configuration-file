@@ -34,6 +34,6 @@ The main profile contains only `RULE-SET` references and `FINAL,PROXY` in its `[
 
 There are no special IP-testing rules, local DIRECT rules or legacy PROXY exceptions in this profile. The old rule-set files are retained because the original profile still uses them. A test site whose destination matches a Russian rule can use DIRECT too.
 
-`skip-proxy`, `tun-excluded-routes` and corporate DNS mappings are retained without duplicating them in routing rules. `skip-proxy` bypasses the HTTP proxy interface, not necessarily the proxy node: TUN traffic is still subject to routing rules.
+`skip-proxy` and `tun-excluded-routes` are retained without duplicating them in routing rules. `skip-proxy` bypasses the HTTP proxy interface, not necessarily the proxy node: TUN traffic is still subject to routing rules.
 
-GeoIP describes server location, not ownership. External rule lists and the GeoIP database can change. Both profiles use Google and AdGuard for DNS over HTTPS, with Cloudflare as the fallback. The `*.avito.ru` host override uses the Avito corporate DNS server. Both profiles share the same IPv6 and tunnel settings. Each has its own update URL. Both retain the existing `include = sr_ru_extended.conf` setting.
+GeoIP describes server location, not ownership. External rule lists and the GeoIP database can change. Both profiles use system DNS for DIRECT connections (`dns-direct-system = true`). When Tunnelblick sets the system DNS through its DNS/WINS setting, DIRECT lookups can use corporate DNS. Both profiles configure Google and AdGuard DNS over HTTPS (DoH), with Cloudflare DoH as the fallback. Both profiles share the same IPv6 and tunnel settings. Each has its own update URL.
