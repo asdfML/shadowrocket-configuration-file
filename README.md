@@ -4,7 +4,7 @@ Two independent Shadowrocket profiles:
 
 | Profile | Routing |
 | --- | --- |
-| [`conf/sr_ru_basic.conf`](conf/sr_ru_basic.conf) | Original configuration restored byte-for-byte from commit `ad9d1de`: selected services use PROXY, everything else uses DIRECT. IP-testing sites use DIRECT. |
+| [`conf/sr_ru_basic.conf`](conf/sr_ru_basic.conf) | Original routing profile from commit `ad9d1de`. Selected services use PROXY. All other destinations, including IP-testing sites, use DIRECT. |
 | [`conf/sr_ru_proxy_default.conf`](conf/sr_ru_proxy_default.conf) | Russian domains, services and destination IPs use DIRECT; all remaining destinations use PROXY. Routing rules are loaded from separate rule-set files. |
 
 ## Import URLs
@@ -36,4 +36,4 @@ There are no special IP-testing rules, local DIRECT rules or legacy PROXY except
 
 `skip-proxy`, `tun-excluded-routes` and corporate DNS mappings are retained without duplicating them in routing rules. `skip-proxy` bypasses the HTTP proxy interface, not necessarily the proxy node: TUN traffic is still subject to routing rules.
 
-GeoIP describes server location, not ownership. External rule lists and the GeoIP database can change. DNS, IPv6 and tunnel settings are unchanged between the profiles, apart from each profile's own update URL. Both retain the existing `include = sr_ru_extended.conf` setting.
+GeoIP describes server location, not ownership. External rule lists and the GeoIP database can change. Both profiles use Google and AdGuard for DNS over HTTPS, with Cloudflare as the fallback. The `*.avito.ru` host override uses the Avito corporate DNS server. Both profiles share the same IPv6 and tunnel settings. Each has its own update URL. Both retain the existing `include = sr_ru_extended.conf` setting.
