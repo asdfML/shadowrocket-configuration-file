@@ -12,13 +12,13 @@ Two independent Shadowrocket profiles:
 Original profile:
 
 ```text
-https://cdn.jsdelivr.net/gh/asdfML/shadowrocket-configuration-file@main/conf/sr_ru_basic.conf
+https://raw.githubusercontent.com/asdfML/shadowrocket-configuration-file/main/conf/sr_ru_basic.conf
 ```
 
 Proxy-by-default profile:
 
 ```text
-https://cdn.jsdelivr.net/gh/asdfML/shadowrocket-configuration-file@main/conf/sr_ru_proxy_default.conf
+https://raw.githubusercontent.com/asdfML/shadowrocket-configuration-file/main/conf/sr_ru_proxy_default.conf
 ```
 
 Add the second URL as a separate configuration and select it in Shadowrocket. Updating the original profile does not switch it to the new routing scheme. Use configuration-based routing mode for these rules to apply.
